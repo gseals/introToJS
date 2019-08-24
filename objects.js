@@ -24,14 +24,24 @@
 
 // console.dir(myObject);
 
-const findAndLogEmployeeStatus = (employee) => {
-    if (employee.name.charAt(0).toLowerCase() === 'c') {
-        employee.status = 'vip'
-    } else {
-        employee.status = 'peasant'
-    }
-    console.log(`${employee.name} is a total ${employee.status}`)
-}
+
+// begin here
+// const findAndLogEmployeeStatus = (employee) => {
+//     if (employee.name.charAt(0).toLowerCase() === 'c') {
+//         employee.status = 'vip'
+//     } else {
+//         employee.status = 'peasant'
+//     }
+//     console.log(`${employee.name} is a total ${employee.status}`)
+// }
+
+// let person = {
+//     name: prompt('what yo name?'),
+//     status: ''
+// }
+// findAndLogEmployeeStatus(person);
+// end here
+
 
 // const person = {
 //     name: 'Michael',
@@ -49,14 +59,6 @@ const findAndLogEmployeeStatus = (employee) => {
 //     name: prompt('Enter employee name'),
 //     status: ''
 // });
-
-let person = {
-    name: prompt('what yo name?'),
-    status: ''
-}
-findAndLogEmployeeStatus(person);
-
-
 
 
 
